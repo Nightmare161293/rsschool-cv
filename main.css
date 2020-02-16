@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    max-width: 1024px;
+    height: 100vh;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    width: 72%;
+    display: flex;
+    padding-top: inherit;
+    align-items: center;
+    justify-content: space-around;
+}
+ul {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    margin: 30px 0 30px 30px;
+}
+ul li {
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
+}
+header .photo {
+    padding-right: 50px;
+}
+.AboutMe, .mySkills, .AboutEnglish{
+    width: 100%;
+    text-align: center;
+}
+.AboutMe{
+    margin-top: 70px;
+}
+.AboutMe p {
+    text-align: left;
+    margin: 30px 0 30px 30px;
+}
+.mySkills p {
+    text-align: left;
+    margin: 0 0 30px 30px
+}
+.AboutEnglish p {
+    text-align: left;
+    margin: 30px 0 30px 30px
+}
+footer {
+    text-align: center;
+    color: blue;
+    margin-top: 80px;
+    border: black solid 2px;
+    padding-top: 10px;
+}
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    color: brown;
+}
